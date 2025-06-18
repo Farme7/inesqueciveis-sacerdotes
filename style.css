@@ -1,0 +1,55 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+header {
+    background: #5c3d2e;
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
+main {
+    padding: 2em;
+}
+.sacerdote {
+    background: white;
+    padding: 2em;
+    margin-bottom: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+.formulario {
+    background: white;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form input, form textarea {
+    margin-bottom: 1em;
+    padding: 0.8em;
+    font-size: 1em;
+}
+form button {
+    background: #5c3d2e;
+    color: white;
+    border: none;
+    padding: 1em;
+    cursor: pointer;
+}
+form button:hover {
+    background: #7b5240;
+}
+footer {
+    text-align: center;
+    padding: 1em;
+    background: #333;
+    color: white;
+}
